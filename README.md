@@ -46,6 +46,68 @@ Public access was enabled only for:
 
 s3:GetObject
 
+User
+ ↓
+CloudFront CDN
+ ↓
+S3 Static Website
+
+# Kathaverse Nova 🚀
+
+My first AWS Solutions Architect Associate hands-on cloud project.
+
+## 🌐 Live Demo
+https://d3sgnt16r5fnfz.cloudfront.net
+
+---
+
+# 📌 Project Overview
+
+This project demonstrates how to host a static website using AWS cloud services with global content delivery using Amazon CloudFront CDN.
+
+The website was built using:
+- HTML
+- CSS
+- AWS S3
+- AWS CloudFront
+- GitHub
+- VS Code
+
+---
+
+# 🏗️ AWS Architecture
+
+User  
+↓  
+CloudFront CDN  
+↓  
+S3 Static Website Hosting  
+
+---
+
+# ☁️ AWS Services Used
+
+## 1. Amazon S3
+Used for:
+- Static website hosting
+- Storing HTML and CSS files
+
+## 2. Amazon CloudFront
+Used for:
+- Global CDN delivery
+- Faster website loading
+- Low latency access
+- Website caching
+
+---
+
+# 📂 Project Files
+
+```bash
+index.html
+style.css
+README.md
+
 This allows users to view website files while preventing upload, delete, or modification actions.
 
 📌
